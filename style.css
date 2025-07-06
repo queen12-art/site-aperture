@@ -1,0 +1,499 @@
+ * {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: 'Poppins-Light';
+    src: url(Poppins/Poppins-Light.ttf)
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Poppins-Light';
+    src: url(Poppins/Poppins-Light.ttf)
+ 
+}
+
+@media (max-width: 480px) {
+    .content {
+     padding: 15px;
+    }
+}
+
+.background {
+    background: rgb(0,0,0);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.header {
+    padding: 27px 147px;
+    max-width: 1440px;
+    max-height: 90px;
+    background: rgb(18,18, 18);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_nav {
+    float: right;
+    min-width: 700px;
+}
+
+
+.navig_bar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    min-width: 700px;
+}
+
+.navig_bar a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+}
+
+.navig_bar li.template_btn a{
+    border-radius: 14px;
+    font-size: 16px;
+    color: #000;
+    background-color: #FFF;
+    padding: 11px 20px;
+    
+}
+
+
+.partie1{
+     max-width: 1440px;
+     min-height:716px ;
+     margin: auto;
+     background: url(images/IMAGEmer.svg) ;
+     align-content: center;
+     background-repeat: no-repeat;
+     background-position: center;
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+}
+
+.partie1_txt{
+max-width: 600px;
+margin: 0 auto;
+text-align: center;
+padding-bottom: 20px;
+
+}
+
+.partie1_txt h1{
+    font-weight:400 ;
+    font-size:14px ;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: Uppercase;
+    margin-top: 1px;
+}
+.partie1_txt h2{
+    font-weight:400 ;
+    font-size:54px ;
+    line-height: 59.4px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top:5px ;
+   
+}
+
+.partie1_txt p{
+    font-weight:400 ;
+    font-size:14px ;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 18px;
+    
+}
+
+.unique{
+    font-size: 12px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+.unique img{
+    margin-left: 15px;
+    margin-right: 6px;
+}
+
+
+
+
+
+
+.partie2{
+    max-width: 1200px;
+    min-height:1338px ;
+    margin: auto;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.partie2_txt{
+max-width: 600px;
+min-height: 82;
+margin: 0 auto;
+left: 300px;
+text-align: center;
+
+
+
+}
+
+.partie2_txt h1{
+   font-weight:400 ;
+   font-size:40px ;
+   line-height: 42px;
+   
+}
+
+.partie2_txt p{
+    font-weight:400 ;
+    font-size:23px ;
+    line-height: 30px;
+    padding-top: 15px;
+    color: #c0c0c0;
+    letter-spacing: 0%;
+   
+   
+}
+
+.volet1,.volet2 {
+    margin-bottom: 16px;
+    max-width: 1168px; 
+    display: flex;
+    min-height: 600px;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+.volet1 h1, .volet2 h1 {
+    text-transform: uppercase;
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 4px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+
+
+.volet1 h2, .volet2 h2 {
+    line-height: 20px;
+    max-width: 513px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #c0c0c0;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+  .volet1_1{
+    background-position: center; 
+    min-width: 576px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background: url(images/IMAGEphoto2_1.svg) ;
+    
+
+}
+.volet1_1txt{
+    max-width: 513px;
+    margin: 0 auto 20px;
+
+    }
+    
+    
+    .Btn img {
+        height: 32px;
+        position: relative;
+        top: 3px;
+        left: -7px;
+        width: 32px;
+    }
+    
+    .Btn { 
+        letter-spacing: 0.4px;
+        gap: 8px;
+        padding: 8px 20px;
+        background-color: #FFFFFF;
+        color: #000000;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 400;
+        line-height: 20px;
+        font-size: 15px;
+        text-decoration: none;
+        border-radius: 18px; 
+        display: inline-flex;
+        align-items: center;
+        
+    }
+    
+
+    .volet1_1txt h1{
+        text-transform: uppercase;
+        line-height: 20px;
+        font-size: 14px;
+        margin-bottom: 4px;
+        letter-spacing: 2px;
+        font-weight: 400;
+    
+    }
+    
+    .volet1_1txt p{
+        line-height: 20px;
+    max-width: 513px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #c0c0c0;
+    margin-bottom: 10px;
+
+    }
+    
+    
+    
+    
+
+.volet1_2{
+    background-position: center; 
+    min-width: 576px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    max-height: 600px;
+    flex-direction: column;
+    background: url(images/IMAGEphoto2_2.svg) ;
+   
+   
+}
+
+
+    
+
+.volet2_1{
+    background-position: center; 
+    min-width: 576px;
+    background-repeat: no-repeat;
+    display: flex;
+    max-height: 600px;
+    justify-content: flex-end;
+    flex-direction: column;
+    background: url(images/IMAGEphoto2_3.svg) ;
+   
+
+}
+
+
+
+.volet2_2{
+    background-position: center; 
+    max-height: 600px;
+    min-width: 576px;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    background: url(images/IMAGEphoto2_4.svg) ;
+    
+}
+
+
+
+
+
+.partie3{
+    max-width: 1440px;
+    min-height:600px ;
+    margin: auto;
+    background: url(images/IMAGEvolcan.svg) ;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.partie3_txt{
+max-width: 300px;
+min-height: 600;
+margin: 0 auto;
+left: 1080px;
+text-align: center;
+margin-right: 34px;
+margin-bottom: 200px;
+
+
+}
+
+.partie3_txt h1{
+   font-weight:400 ;
+   font-size:14px ;
+   line-height: 20px;
+   letter-spacing: 2px;
+   text-align: left;
+   text-transform: Uppercase;
+   margin-top: 1px;
+}
+
+.partie3_txt p{
+    font-weight:400 ;
+    font-size:11px ;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 1px;
+}
+/*
+.partie4 {
+    margin-bottom: 16px;
+    max-width: 1168px; 
+    display: flex;
+    min-height: 600px;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.partie4_1{
+    background-color: #000;
+    min-width: 1440px;
+    max-height: 540px;
+    top: 2958px;
+}
+
+.partie4_1text{
+min-width: 600px;
+max-height: 314px;
+top: 113px;
+left: 60px;
+}
+
+
+.partie4_2{
+    max-width: 1440px;
+    min-height:600px ;
+    margin: auto;
+    background: url(images/IMAGEblock4.svg) ;
+}
+
+*/
+
+.partie5{
+    max-width: 1440px;
+    min-height:600px ;
+    margin: auto;
+    background: url(images/IMAGEfeuilles.svg) ;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.partie5_txt{
+max-width: 300px;
+min-height: 600;
+margin: 0 auto;
+left: 1080px;
+text-align: center;
+margin-right: 34px;
+margin-bottom: 200px;
+
+
+}
+
+.partie5_txt h1{
+   font-weight:400 ;
+   font-size:14px ;
+   line-height: 20px;
+   letter-spacing: 2px;
+   text-align: left;
+   text-transform: Uppercase;
+   margin-top: 1px;
+}
+
+.partie5_txt p{
+    font-weight:400 ;
+    font-size:11px ;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 1px;
+}
+
+
+
+
+
+
+.partie8{
+    max-width: 1440px;
+    min-height:600px ;
+    margin: auto;
+    background: url(images/IMAGEbloc8.svg) ;
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.partie8_txt{
+max-width: 300px;
+min-height: 600;
+margin: 0 auto;
+left: 1080px;
+text-align: center;
+margin-right: 34px;
+margin-bottom: 200px;
+
+
+}
+
+.partie8_txt h1{
+   font-weight:400 ;
+   font-size:14px ;
+   line-height: 20px;
+   letter-spacing: 2px;
+   text-align: left;
+   text-transform: Uppercase;
+   margin-top: 1px;
+}
+
+.partie8_txt p{
+    font-weight:400 ;
+    font-size:11px ;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 1px;
+}
+
